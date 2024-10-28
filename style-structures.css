@@ -1,0 +1,64 @@
+* {
+    --font-size: 16px;
+}
+
+.structure {
+    position: absolute;
+    word-wrap: break-word;
+    text-transform: capitalize;
+}
+.temp-structure {
+    position: absolute;
+    animation: blowing-temp 0.5s infinite;
+    transition: all 0.5s;
+}
+
+@keyframes blowing-temp {
+    0% {background-color: chartreuse;}
+    50% {background-color: green;}
+}
+
+.mine {
+    background-color: grey;
+    border: 1px solid red;
+    width: 40px;
+    height: 40px;
+    font-size: var(--font-size);
+}
+.lumberjack {
+    background-color: brown;
+    border: 1px solid red;
+    width: 65px;
+    height: 60px;
+    font-size: var(--font-size);
+    word-wrap: break-word;
+}
+.house {
+    background-color: firebrick;
+    border: 1px solid red;
+    width: 60px;
+    height: 20px;
+    font-size: var(--font-size);
+}
+.farm {
+    background-color: burlywood;
+    border: 1px solid red;
+    width: 80px;
+    height: 80px;
+    font-size: var(--font-size);
+}
+.office {
+    background-color: blanchedalmond;
+    border: 1px solid red;
+    width: 60px;
+    height: 20px;
+    font-size: var(--font-size);
+}
+.shop {
+    background-color: chocolate;
+    border: 1px solid red;
+    width: 50px;
+    height: 30px;
+    font-size: var(--font-size);
+}
+
